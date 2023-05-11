@@ -8,7 +8,7 @@ Function Expression
 const showMessage = () => {
      console.log (`Hello`);
 };
-showMessage ();
+showMessage();
 
 
 Напиши функцію, яка обчислює факторіал переданого їй числа.
@@ -24,9 +24,9 @@ alert( factorial(4) );
 Напиши функцію, яка приймає довжину і ширину прямокутника і обчислює його площу. 
 
 function calcRectangle () {
-    let sideA = prompt (`enter side a`);
-    let sideB = prompt (`enter side b`);
-    let Rectangle = sideA * sideB;
+    const sideA = prompt (`enter side a`);
+    const sideB = prompt (`enter side b`);
+    const Rectangle = sideA * sideB;
    return Rectangle;
 }
  alert (calcRectangle ());
@@ -54,10 +54,11 @@ calcArgument ();
       return 0;
      };
      
- Напиши функцію, яка приймає три окремі цифри і перетворює їх в одне число. Наприклад: цифри 1, 4, 9 перетворяться в число 149.
+ Напиши функцію, яка приймає три окремі цифри і перетворює їх в одне число. Наприклад: цифри 1, 4, 9 перетворяться в число 149.*/
 
      const Number = [1, 4, 9];
-     function string () {
+     function string ( ) {
         console.log (Number.join(''));
      }
-     string ();*/
+     string ();
+
